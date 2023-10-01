@@ -13,13 +13,25 @@ const Cart = () => {
   const data = useSelector((state) => {
     return state.carData.product;
   });
+  
 
   return (
     <div className="mt-5 ">
-         <Header/>
-         <CartPincode/>
-         <CartList/>
-
+      {
+        data.length!==0?       <div className="overflow-scroll h-[80vh]">         <Header/>
+  
+        <CartPincode/>
+ 
+        {
+         data.map((item)=>{
+           return <CartList data={item}/>
+         })
+        }
+            <PlaceOrder  />
+       </div>:<EmptyCart/>
+      }
+     
+         
     </div>
   );
 };
