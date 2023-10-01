@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90",
+      "title": "Premium PowerBanks",
+      "des": "Shop Now"
+    },
+    {
+      "id": 2,
+      "img": "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90",
+      "title": "Best of Trimmers",
+      "des": "From ₹399"
+    },
+    {
+      "id": 3,
+      "img": "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90",
+      "title": "Printers",
+      "des": "From ₹399"
+    },
+    {
+      "id": 4,
+      "img": "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90",
+      "title": "Monitors",
+      "des": "From ₹7949"
+    },
+    {
+      "id": 4,
+      "img": "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90",
+      "title": "MarQ 27 Gaming",
+      "des": "From ₹11,999"
+    },
+    {
+      "id": 4,
+      "img": "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90",
+      "title": "Printers",
+      "des": "From ₹2336"
+    },
+    {
+      "id": 5,
+      "img": "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90",
+      "title": "Projectors",
+      "des": "From ₹9999"
+    },
+    {
+      "id": 6,
+      "img": "https://static-assets-web.flixcart.com/www/linchpin/batman-returns/images/fk-default-image-75ff340b.png?q=90",
+      "title": "Top Mirrorless Cameras",
+      "des": "Shop Now!"
+    }
+  ]
+}

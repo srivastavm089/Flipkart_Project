@@ -1,0 +1,74 @@
+.main-nav{
+    background-color: #2874F0;
+    display: flex;
+    align-items: center;
+    padding: 0.7em;
+    justify-content: space-around;
+}
+.section-logo {
+    width: 7em;
+}
+.section-logo img{
+    width: 100%;
+}
+.section-input input{
+    height: 4.5vh;
+    width:30rem;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding-left: 2vh;
+    
+}
+.section-input{
+    position: relative;
+}
+.saerch-icons{
+   
+    position: absolute;
+    right: 0.8em;
+    color:  #2874F0;
+    top: 0.5em;
+    cursor: pointer;
+  
+}
+
+
+.left{
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+
+}
+.right{
+    display: flex;
+    align-items: center;
+
+    gap: 5vh;
+
+}
+.right .item{
+    text-decoration: none;
+    color: white;
+   
+   white-space: nowrap;
+    
+}
+.cart-pr{
+    position: relative;
+ display: flex;
+ gap: 2px;
+ align-items: center;
+}
+.cart-value{
+    position: absolute;
+    top: -11px;
+    color: white;
+    left: 2px;
+    background-color: #FF6161;
+    padding: 0.1em 0.3em 0.1em 0.3em    ;
+    border-radius:40%;
+    font-size: 12px;
+    
+    border: 1px solid white;
+}

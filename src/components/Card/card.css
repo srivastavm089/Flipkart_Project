@@ -1,0 +1,143 @@
+*{
+  scroll-behavior: smooth;
+}
+
+.card-flex {
+  display: flex;
+  gap: 6vh;
+  overflow-x: scroll;
+  transition: all 2s;
+  height: 38.2vh;
+
+  padding: 2vh;
+  width: 100%;
+  background-color: white;
+}
+.card-flex::-webkit-scrollbar {
+  display: none;
+}
+
+.grand-pr {
+ margin: 0 1em 0.5em 1em;
+  height: 20rem;
+  display: flex;
+  gap: 1vh;
+}
+.grand-flex-pr {
+  position: relative;
+  width: 84.3%;
+  display: flex;
+  gap: 1vh;
+}
+
+.card-pr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.card-images {
+  width: 125px;
+  height: 150px;
+}
+.des {
+  opacity: 0.5;
+  font-size: 13px;
+}
+.offer {
+  color: #64903c;
+}
+.right-image {
+  width: 100%;
+  height: 100%;
+}
+.right-image-pr {
+  background-color: white;
+  width: 35vh;
+}
+.left-image-pr {
+  width: 30vh;
+  height: 50%;
+}
+.left-image {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.left-btn-section {
+  height: 50%;
+  width: 30vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+}
+.left-btn-section button {
+  padding: 0.8em 2em 0.8em 2em;
+  background-color: #2874f0;
+  color: white;
+  border: none;
+}
+.left-title {
+  font-weight: 300;
+  text-align: center;
+  font-size: 25px;
+}
+.left-btn {
+  background: white;
+  color: black;
+  top: 35%;
+  position: absolute;
+  z-index: 15;
+  padding: 5vh 2vh 5vh 2vh;
+
+  box-shadow: 2px 2px 5px 1px rgb(117, 106, 106);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+.right-btn {
+  background: white;
+  color: black;
+  position: absolute;
+  right: 17.8%;
+  top: 35%;
+  z-index: 15;
+  padding: 5vh 2vh 5vh 2vh;
+
+  box-shadow: 2px 2px 5px 1px rgb(117, 106, 106);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+}
+.review-flex{
+  display: flex;
+gap: 1vh;
+justify-content: center;
+}
+.price-flex{
+  display: flex;
+ gap: 1vh;
+ 
+}
+.product-title{
+  white-space: pre-wrap;
+  text-align: center;
+}
+.review-background{
+  background-color: #388E75;
+  padding: 0.1em 0.2em 0.1em 0.3em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  color: white;
+}
+.product-price{
+  font-weight: 700;
+}

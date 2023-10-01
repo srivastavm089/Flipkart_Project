@@ -1,0 +1,59 @@
+.category-main {
+  display: flex;
+  justify-content: space-evenly;
+ 
+  padding: 4vh;
+  align-items: center;
+ border-bottom: 1px solid rgb(219, 215, 215);
+  background-color: #fff;
+}
+.category-main a {
+  text-decoration: none;
+  color: black;
+  width: 80px;
+  max-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ font-size: 12px;
+ 
+  font-weight: 700;
+  padding: 1vh;
+  white-space: nowrap;
+}
+.category-main a:hover{
+  color: #2874F0;
+}
+.item {
+  width: 100%;
+  
+}
+.category-item-pr{
+  position: relative;
+}
+.category-fashion-drop{
+  position: absolute;
+  left:10px;
+bottom: -10px;
+}
+.category-electronic-drop{
+  position: absolute;
+  left: 20px;
+  top: -5px;
+}
+.category-home-drop{
+  position: absolute;
+  right: -50px;
+  top: -5px;
+}
+.category-beauty-drop{
+  position: absolute;
+  left: 77px;
+  top: -5px;
+}
+.category-wheelers-drop{
+  position: absolute;
+  left: 43px;
+  top: -5px;
+}

@@ -1,0 +1,104 @@
+.footer-parent{
+    background-color: #172337;
+    color: white;
+    display: flex;
+    gap: 20vh;
+    padding: 6vh;
+    font-size: 15px;
+}
+.footer-parent-first{
+    display: flex;
+    gap: 10vh;
+}
+.first-section{
+   display: flex;
+   flex-direction: column;
+   gap: 2vh;
+}
+.first-option{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    gap: 1vh;
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.second-option{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.third-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.third-option{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.fourth-option{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.five-section-pr{
+    display: flex;
+    gap: 5vh;
+    border-left: 1px solid white;
+    padding-left: 5vh;
+
+}
+.five-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.five-option{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+
+}
+.six-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.six-option{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.footer-title{
+    opacity: 0.5;
+}
+.grand-footer{
+    display: flex;
+    flex-direction: column;
+  
+}
+.footer-low{
+    display: flex;
+    background-color:  #172337;
+    color: white;
+    ;
+    justify-content: space-around;
+    border-top: 1px solid rgb(206, 205, 205);
+   padding: 3vh 0 3vh 0;
+}
+.flex-member{
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    gap: 1vh;
+}

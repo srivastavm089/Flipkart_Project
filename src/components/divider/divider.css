@@ -1,0 +1,15 @@
+.div-pr{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 1vh 4vh 1.5vh 4vh;
+    margin: 0 2vh 0 2vh;
+    border-bottom: 1px solid rgb(217, 209, 209);
+}
+.divider-view-all{
+    padding: 0.8em 2em 0.8em 2em;
+    background-color: #2874f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

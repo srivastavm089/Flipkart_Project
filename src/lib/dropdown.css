@@ -1,0 +1,9 @@
+.nav-outlinedDown{
+    width: 10px;
+
+}
+.nav-outlinedDown:hover{
+    transform: rotate(180deg);
+    transition: all 0.5s;
+    
+}

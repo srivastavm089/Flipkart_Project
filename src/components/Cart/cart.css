@@ -1,0 +1,80 @@
+.emptyCart-parent{
+    margin-top: 2vh;
+
+}
+.empty-first-section-grand-pr{
+display: flex;
+flex-direction: column;
+gap: 2vh;
+;
+
+}
+.empty-first-section{
+
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+ 
+   
+  gap: 1vh;
+}
+.empty-first-section-par{
+ display: flex;
+ justify-content: center;
+
+ 
+}
+.empty-sections-selections{
+    display: flex;
+   justify-content: center;
+   gap: 5vh;
+   align-items: center;
+    padding: 2vh 0 2vh 0;
+  background-color: white;
+  
+    
+}
+.empty-main-photo{
+   width: 15em;
+   height: 15empx;
+}
+.empty-options-des{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    background-color: white;
+  padding-top: 2vh;
+}
+.empty-cart-shownow{
+    background-color: #2874F0;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 0.8em 6em 0.8em 6em;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 2vh;
+}
+.divider-bottom-section{
+    display: flex;
+    justify-content: space-around;
+height: 40vh;
+}
+.empty-flipkart{
+    text-decoration: none;
+    color: black;
+}
+.empty-grocery{
+ text-decoration: none;
+ color: black;
+}
+.empty-sections-selections .active{
+    border-bottom:1px solid  #2874F0;
+}
+.empty-des-last-first{
+    opacity: 0.5;
+}
+.empty-des-last-first{
+    opacity: 0.5;
+}

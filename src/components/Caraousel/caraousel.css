@@ -1,0 +1,48 @@
+.image-pr{
+    width: 100vh ;
+    height: 35vh;
+ 
+}
+.image{
+    width: 100% ;
+    height: 100%;
+    border-image-repeat: none;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-prev:focus {
+  font-size: inherit;
+  left: 15px;
+  top: 40%;
+  z-index: 2;
+  color:black;
+  background-color: white;
+  height: 10vh;
+  width: 5vh;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+ 
+}
+
+.ant-carousel .slick-next,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-next:focus {
+  font-size: inherit;
+  right: 15px;
+  top: 40%;
+  z-index: 2;
+  color:black;
+  height: 10vh;
+  width: 5vh;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  
+}
+
+   
+    
+
+
+
