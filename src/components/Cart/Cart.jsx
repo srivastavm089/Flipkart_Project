@@ -5,33 +5,36 @@ import { Divider } from "antd";
 import EmptyCart from "./EmptyCart";
 import CartList from "./CartList";
 import PriceDetail from "./PriceDetail";
-import Header from './Header'
+import Header from "./Header";
 import PlaceOrder from "./PlaceOrder";
 import CartPincode from "./CartPincode";
-
+import SmoothRender from "react-smooth-render";
 const Cart = () => {
   const data = useSelector((state) => {
-    return state.carData.product;
+    return state.carData.product; 
   });
-  
 
   return (
-    <div className="mt-5 ">
-      {
-        data.length!==0?       <div className="overflow-scroll h-[80vh]">         <Header/>
-  
-        <CartPincode/>
- 
-        {
-         data.map((item)=>{
-           return <CartList data={item}/>
-         })
-        }
-            <PlaceOrder  />
-       </div>:<EmptyCart/>
-      }
-     
-         
+    <div>
+      {data.length !== 0 ? (
+        <div className="mt-5 flex gap-2 justify-center">
+          <div className=" w-6/12 flex flex-col ">
+            <Header />
+
+            <CartPincode />
+
+            {data.map((item) => {
+              return <CartList data={item} />;
+            })}
+            <PlaceOrder />
+          </div>
+          <div className="w-[20%]">
+            <PriceDetail />
+          </div>
+        </div>
+      ) : (
+        <EmptyCart />
+      )}
     </div>
   );
 };

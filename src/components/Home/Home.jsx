@@ -8,6 +8,7 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Dividerr from "../divider/Dividerr";
 import PreFooter from "../PreFooter/PreFooter";
 import { mobileData } from "../../productData/MobileData";
+
 const Home = () => {
   const [data, setData] = useState([]);
   useEffect((item) => {
@@ -117,7 +118,9 @@ const Home = () => {
   ];
   
   return (
+
     <div>
+    
       <Category />
       <Caraousel />
       <Card
@@ -147,7 +150,9 @@ const Home = () => {
         divider={true}
       />
       <PreFooter />
+ 
     </div>
+  
   );
 };
 export default Home;

@@ -2,13 +2,14 @@ import React from 'react'
 import { useDispatch } from 'react-redux';
 import { removeToCart } from '../../redux/actions/cartAction';
 import PlaceOrder from './PlaceOrder';
+import RemoveCartModal from '../../lib/RemoveCartModal';
 const CartList = ({data}) => {
   const dispatch = useDispatch();
   console.log(data)
   return (
     
-    <div className='flex justify-center '>
-       <div className='bg-white flex w-5/12 gap-10 p-4'>
+    <div className='  '>
+       <div className='bg-white flex  gap-10 p-4'>
         <div className='flex flex-col items-center gap-10'>
           < div>
             <img className='w-20' src={data.img} alt="logo" />
@@ -23,7 +24,7 @@ const CartList = ({data}) => {
         </div>
         <div className='flex gap-2'><p>Seller:RetailNet</p> <img className='w-16' src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" alt="logo" /></div>
         <div><pre> <del>₹999 </del> ₹399 60% Off 2 offers applied</pre></div>
-        <div className='flex gap-4'><button>Save For Later</button> <button onClick={()=>  dispatch(removeToCart(data.id))}>Remove</button></div>
+        <div className='flex gap-4 '><button>Save For Later</button> <RemoveCartModal id={data.id}  /></div>
        </div>
        </div>
        
